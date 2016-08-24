@@ -15,6 +15,12 @@ public class GravaAluno {
 			aluno.setAlu_cidade("Sao Paulo");
 			aluno.setAlu_curso("Direito");
 			
+			aluno.setAlu_codigo(7);
+			aluno.setAlu_nome("+ + Outro Calos Joao carlos");
+			aluno.setAlu_fone("11 3985-547");
+			aluno.setAlu_cidade("Sao Paulo");
+			aluno.setAlu_curso("Direito");
+			
 			Transaction tx_aluno = sessao.beginTransaction();
 			sessao.save(aluno);
 			tx_aluno.commit();
